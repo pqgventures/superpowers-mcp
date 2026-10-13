@@ -52,6 +52,10 @@ codex mcp add superpowers --url https://superpowers.tools/mcp \
 
 The server answers `initialize` and `tools/list` without a key, so you can see the tools before signing up; running a tool needs the key.
 
+## Ready-made recipes
+
+[pqgventures/superpowers-recipes](https://github.com/pqgventures/superpowers-recipes) has 27 agent skills with runnable scripts that use this server: check a Brazilian supplier from its CNPJ, watch competitor ads, make a video ad from a product page, build a verified lead list. In Claude Code: `/plugin marketplace add pqgventures/superpowers-recipes`.
+
 ## Tools
 
 | Tool | What it does |

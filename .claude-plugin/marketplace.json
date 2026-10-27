@@ -1,0 +1,21 @@
+{
+  "name": "superpowers",
+  "owner": {
+    "name": "PQG Ventures",
+    "email": "bruno@pqgventures.com"
+  },
+  "metadata": {
+    "description": "Superpowers: pay-per-call tools for AI agents",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "source": "./",
+      "description": "Pay-per-call tools for your agent on one balance: web search and page reading, work emails, company records (including Brazilian CNPJ), social profiles, images, video and voice. Sign in once; failed calls are free; new accounts get US$5.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "homepage": "https://superpowers.tools/?ref=claude-plugin"
+    }
+  ]
+}

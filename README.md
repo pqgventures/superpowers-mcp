@@ -17,6 +17,34 @@ The catalog includes AI models (GPT, Claude, Gemini and more through one key), w
 
 Failed calls are free. New accounts get US$5 of credit. Many tools are free to call.
 
+## Install in one step
+
+Each option signs you in with your Superpowers account in the browser. There's no key to paste, and new accounts get US$5 of credit.
+
+### Claude Code plugin
+
+```
+/plugin install superpowers --marketplace pqgventures/superpowers-mcp
+```
+
+(On Claude Code older than 2.1.275: `/plugin marketplace add pqgventures/superpowers-mcp`, then `/plugin install superpowers@superpowers`.) Then run `/mcp`, pick superpowers and sign in.
+
+### Cursor plugin
+
+Add this repository as a Cursor plugin, or put the server from [mcp.json](mcp.json) in `~/.cursor/mcp.json`.
+
+### Agent Skill (Codex, Claude Code, any agent that reads SKILL.md)
+
+```sh
+npx skills add pqgventures/superpowers-mcp
+```
+
+The skill teaches your agent when to use Superpowers and how to call it over MCP, or over REST with a key.
+
+### Any MCP client
+
+Add `https://superpowers.tools/mcp/connect` as a remote MCP server and sign in. If your client only takes a key, use `https://superpowers.tools/mcp` with the key, as shown below.
+
 ## Get a key
 
 Sign in at [superpowers.tools/login](https://superpowers.tools/login) (Google or an emailed code) and create an API key. An agent can also sign up by itself with `POST https://superpowers.tools/v1/signup`.

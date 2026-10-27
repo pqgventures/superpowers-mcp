@@ -1,0 +1,24 @@
+{
+  "name": "superpowers",
+  "version": "0.1.0",
+  "description": "Pay-per-call tools for your agent on one balance: web search and page reading, work emails, company records (including Brazilian CNPJ), social profiles, images, video and voice. Sign in once; failed calls are free; new accounts get US$5.",
+  "author": {
+    "name": "PQG Ventures",
+    "email": "bruno@pqgventures.com",
+    "url": "https://superpowers.tools/?ref=claude-plugin"
+  },
+  "homepage": "https://superpowers.tools/?ref=claude-plugin",
+  "repository": "https://github.com/pqgventures/superpowers-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "tools",
+    "web-search",
+    "scraping",
+    "email-finder",
+    "company-data",
+    "cnpj",
+    "image-generation",
+    "agents"
+  ]
+}

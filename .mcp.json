@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "superpowers": {
+      "type": "http",
+      "url": "https://superpowers.tools/mcp/connect"
+    }
+  }
+}

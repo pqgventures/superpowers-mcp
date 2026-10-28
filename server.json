@@ -2,17 +2,25 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "tools.superpowers/superpowers",
   "title": "Superpowers",
-  "description": "Pay-per-call toolbox for AI agents: one key and one MCP server for data, search, scraping, models",
-  "version": "1.0.1",
+  "description": "Pay-per-call tools for agents: search, page reading, emails, company data, media. Sign in, no key",
+  "version": "1.0.2",
   "websiteUrl": "https://superpowers.tools",
+  "repository": {
+    "url": "https://github.com/pqgventures/superpowers-mcp",
+    "source": "github"
+  },
   "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://superpowers.tools/mcp/connect"
+    },
     {
       "type": "streamable-http",
       "url": "https://superpowers.tools/mcp",
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer followed by your Superpowers API key (sign up at https://superpowers.tools/docs; new accounts get $5 of credit)",
+          "description": "Bearer followed by your Superpowers API key (for clients without OAuth; sign up at https://superpowers.tools, new accounts get $5)",
           "isRequired": true,
           "isSecret": true
         }
@@ -20,4 +28,3 @@
     }
   ]
 }
-

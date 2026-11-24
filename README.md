@@ -71,6 +71,14 @@ claude mcp add --transport http superpowers https://superpowers.tools/mcp \
 }
 ```
 
+### Cline
+
+```sh
+cline mcp add superpowers https://superpowers.tools/mcp --transport streamableHttp --header "Authorization: Bearer $SUPERPOWERS_KEY" --yes
+```
+
+In the VS Code extension, add the same server to `cline_mcp_settings.json` with `"type": "streamableHttp"`. Step-by-step setup for agents is in [llms-install.md](llms-install.md).
+
 ### Codex
 
 ```sh
